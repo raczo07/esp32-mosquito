@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mosquitto
+    ports:
+      - "1883:1883"   # Puerto MQTT
+      - "9001:9001"   # Puerto WebSocket (opcional)
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+
+  node-red:
+    image: nodered/node-red:latest
+    container_name: node-red
+    ports:
+      - "1880:1880"   # Puerto para la interfaz de Node-RED
+    environment:
+      - TZ=America/Bogota
+    depends_on:
+      - mosquitto
+    volumes:
+      - ./node-red/data:/data
+
+networks:
+  default:
+    driver: bridge
