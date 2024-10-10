@@ -1,0 +1,69 @@
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de dependencias
+node_modules/
+vendor/
+
+# Ignorar archivos de compilación
+dist/
+build/
+out/
+
+# Ignorar archivos temporales
+*.tmp
+*.log
+*.lock
+*.swp
+*.swo
+*.bak
+
+# Ignorar archivos de configuración del IDE
+.vscode/
+.idea/
+*.iml
+
+# Ignorar entornos virtuales
+venv/
+env/
+.virtualenv/
+
+# Ignorar archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorar checkpoints de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar archivos específicos de sistemas operativos
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignorar configuración SSH
+.ssh/
+
+# Ignorar archivos sensibles
+.env
+credentials.json
+secret-keys.txt
+
+# Ignorar binarios y documentación generada
+*.pdf
+*.docx
+*.zip
+*.tar.gz
+
+# Ignorar archivos dentro de la carpeta log
+log/*
+# Ignorar archivos dentro de la carpeta data
+data/*
+
+# Ignorar el archivo específico del proyecto
+Codigo_ESP32_MQTT_Sensor_DS18B20_2024_02_prod.ino
+
+# Nota: Puedes mantener las carpetas log y data vacías en el repositorio si es necesario
+!.gitkeep
