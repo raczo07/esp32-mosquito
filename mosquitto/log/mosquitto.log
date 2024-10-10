@@ -1,0 +1,72 @@
+1728515137: mosquitto version 2.0.18 starting
+1728515137: Config loaded from /mosquitto/config/mosquitto.conf.
+1728515137: Opening ipv4 listen socket on port 1883.
+1728515137: Opening ipv6 listen socket on port 1883.
+1728515137: mosquitto version 2.0.18 running
+1728515201: New connection from 172.19.0.1:38626 on port 1883.
+1728515201: Client <unknown> disconnected due to protocol error.
+1728515202: New connection from 172.19.0.1:38634 on port 1883.
+1728515202: Client <unknown> disconnected due to protocol error.
+1728515353: mosquitto version 2.0.18 terminating
+1728515353: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1728515447: mosquitto version 2.0.18 starting
+1728515447: Config loaded from /mosquitto/config/mosquitto.conf.
+1728515447: Opening ipv4 listen socket on port 1883.
+1728515447: Opening ipv6 listen socket on port 1883.
+1728515447: mosquitto version 2.0.18 running
+1728515931: New connection from 172.19.0.3:40876 on port 1883.
+1728515931: New client connected from 172.19.0.3:40876 as nodered_0e24b8028416be3a (p2, c1, k60).
+1728517247: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1728517699: New connection from 192.168.1.11:56906 on port 1883.
+1728517699: New client connected from 192.168.1.11:56906 as ESP8266Client (p2, c1, k15).
+1728517767: New connection from 192.168.1.10:46418 on port 1883.
+1728517767: New client connected from 192.168.1.10:46418 as auto-F3A1DFBA-C17E-DCA1-87C6-3ED126D168AB (p2, c1, k60).
+1728517767: Client auto-F3A1DFBA-C17E-DCA1-87C6-3ED126D168AB disconnected.
+1728517777: New connection from 192.168.1.10:53352 on port 1883.
+1728517777: New client connected from 192.168.1.10:53352 as auto-7254679A-B47D-BE23-3059-83887C3F7800 (p2, c1, k60).
+1728517777: Client auto-7254679A-B47D-BE23-3059-83887C3F7800 disconnected.
+1728517857: Client nodered_0e24b8028416be3a disconnected.
+1728517857: New connection from 172.19.0.3:40036 on port 1883.
+1728517857: New client connected from 172.19.0.3:40036 as nodered_50e9328096b51d7c (p2, c1, k60).
+1728517870: New connection from 192.168.1.10:47954 on port 1883.
+1728517870: New client connected from 192.168.1.10:47954 as auto-2B67968E-BAEB-8A8F-226E-12A3221B2D6E (p2, c1, k60).
+1728517870: Client auto-2B67968E-BAEB-8A8F-226E-12A3221B2D6E disconnected.
+1728517880: New connection from 192.168.1.10:59446 on port 1883.
+1728517880: New client connected from 192.168.1.10:59446 as auto-AF39DD38-6197-3626-5F20-8189F01A10C7 (p2, c1, k60).
+1728517880: Client auto-AF39DD38-6197-3626-5F20-8189F01A10C7 disconnected.
+1728517892: New connection from 192.168.1.10:33550 on port 1883.
+1728517892: New client connected from 192.168.1.10:33550 as auto-0944F4E0-AE28-B48D-725F-CBDE300D3E90 (p2, c1, k60).
+1728517892: Client auto-0944F4E0-AE28-B48D-725F-CBDE300D3E90 disconnected.
+1728518063: Client nodered_50e9328096b51d7c disconnected.
+1728518209: New connection from 172.19.0.3:39068 on port 1883.
+1728518209: New client connected from 172.19.0.3:39068 as nodered_74b85ac8fa297819 (p2, c1, k60).
+1728518357: Client nodered_74b85ac8fa297819 disconnected.
+1728518357: New connection from 172.19.0.3:48232 on port 1883.
+1728518357: New client connected from 172.19.0.3:48232 as nodered_b216f4eec1f5e366 (p2, c1, k60).
+1728518505: New connection from 192.168.1.10:49532 on port 1883.
+1728518505: New client connected from 192.168.1.10:49532 as auto-42E4A111-547A-C6D6-263B-60118AE69D61 (p2, c1, k60).
+1728518505: Client auto-42E4A111-547A-C6D6-263B-60118AE69D61 disconnected.
+1728518611: New connection from 192.168.1.10:40844 on port 1883.
+1728518611: New client connected from 192.168.1.10:40844 as auto-B6C78EA3-979A-5C49-C7CC-B589CD11235D (p2, c1, k60).
+1728518620: New connection from 192.168.1.10:60622 on port 1883.
+1728518620: New client connected from 192.168.1.10:60622 as auto-F54D595C-D8BE-E0B8-DA9F-D62470FCB020 (p2, c1, k60).
+1728518620: Client auto-F54D595C-D8BE-E0B8-DA9F-D62470FCB020 disconnected.
+1728518628: Client auto-B6C78EA3-979A-5C49-C7CC-B589CD11235D closed its connection.
+1728518714: New connection from 192.168.1.11:51287 on port 1883.
+1728518714: Client ESP8266Client already connected, closing old connection.
+1728518714: New client connected from 192.168.1.11:51287 as ESP8266Client (p2, c1, k15).
+1728519048: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1728520849: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1728522650: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1728523787: Client nodered_b216f4eec1f5e366 disconnected.
+1728523787: mosquitto version 2.0.18 terminating
+1728523787: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1728523893: mosquitto version 2.0.18 starting
+1728523893: Config loaded from /mosquitto/config/mosquitto.conf.
+1728523893: Opening ipv4 listen socket on port 1883.
+1728523893: Opening ipv6 listen socket on port 1883.
+1728523893: mosquitto version 2.0.18 running
+1728523894: New connection from 172.19.0.3:57370 on port 1883.
+1728523894: New client connected from 172.19.0.3:57370 as nodered_e4546d3f49e2a3ab (p2, c1, k60).
+1728523894: New connection from 192.168.1.11:51309 on port 1883.
+1728523894: New client connected from 192.168.1.11:51309 as ESP8266Client (p2, c1, k15).
