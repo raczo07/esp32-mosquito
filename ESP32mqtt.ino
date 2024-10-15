@@ -31,13 +31,13 @@ DallasTemperature sensors(&oneWire);
 #include <Wire.h>
 
 // Replace the next variables with your SSID/Password combination
-const char* ssid = "Abaunza Martinez";
-const char* password = "1017233773*";
+const char* ssid = "NAME_WIFI";
+const char* password = "CLAVE_WIFI";
 
 // Add your MQTT Broker IP address, example:
 //const char* mqtt_server = "192.168.1.144";
 //const char* mqtt_server = "YOUR_MQTT_BROKER_IP_ADDRESS";
-const char* mqtt_server = "192.168.1.10";
+const char* mqtt_server = "IP_SERVER";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
