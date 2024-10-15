@@ -6,8 +6,6 @@ ESP32mqtt/*
 node-red/data/.config.nodes.json
 node-red/data/.config.nodes.json.backup
 
-# Hello World
-
 # Pero permitir mantener los directorios vacíos con un archivo .gitkeep
 !mosquitto/data/.gitkeep
 !mosquitto/log/.gitkeep
