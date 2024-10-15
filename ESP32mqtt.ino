@@ -32,7 +32,7 @@ DallasTemperature sensors(&oneWire);
 
 // Replace the next variables with your SSID/Password combination
 const char* ssid = "Abaunza Martinez";
-const char* password = "1017233773";
+const char* password = "1017233773*";
 
 // Add your MQTT Broker IP address, example:
 //const char* mqtt_server = "192.168.1.144";
