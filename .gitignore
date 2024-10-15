@@ -1,8 +1,9 @@
 # Ignorar todo el contenido de mosquitto/data y mosquitto/log
 mosquitto/data/*
 mosquitto/log/*
-/node-red/data/.npm/*
+node-red/data/.npm/*
 
 # Pero permitir mantener los directorios vacíos con un archivo .gitkeep
 !mosquitto/data/.gitkeep
 !mosquitto/log/.gitkeep
+!node-red/data/.npm/.gitkeep
