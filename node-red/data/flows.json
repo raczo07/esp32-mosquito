@@ -301,7 +301,7 @@
         "type": "function",
         "z": "21e86c884c9cd30d",
         "name": "function 1",
-        "func": "msg.color = (msg.payload===\"ON\")?\"lime\":\"red\";\nreturn msg;",
+        "func": "msg.color = (msg.payload===\"ON\")?\"lime\":\"black\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
