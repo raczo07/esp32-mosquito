@@ -2,6 +2,7 @@ FILE FOR ADDING TO DO TASKS
  * Create script for updating git (git pull) and updating docker containers.
  * Add folder for project documentation.
  * Add folder for images such us circuit.
- * Develop grafana and influxDB (or similar) # Future work.
- * Design dashboard panels -> grafana # Future Work.
+ * Develop grafana and influxDB (or similar)
+ * Design dashboard panels -> grafana
  * Analyze circuit (power supply, connections or simulation) # Future work.
+ * Integrate Android camera with node-red (must install ffmpeg inside dokcer image)
