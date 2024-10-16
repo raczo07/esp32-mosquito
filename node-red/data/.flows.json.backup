@@ -301,7 +301,7 @@
         "type": "function",
         "z": "21e86c884c9cd30d",
         "name": "function 1",
-        "func": "msg.color = (msg.payload===\"ON\")?\"lime\":\"red\";\nreturn msg;",
+        "func": "msg.color = (msg.payload===\"ON\")?\"lime\":\"black\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -412,7 +412,7 @@
         "width": 0,
         "height": 0,
         "name": "",
-        "label": "text",
+        "label": "Temp value °C:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
@@ -420,8 +420,42 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 930,
+        "x": 960,
         "y": 460,
         "wires": []
+    },
+    {
+        "id": "4decc3aab3adc4fc",
+        "type": "ui_switch",
+        "z": "21e86c884c9cd30d",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "2b36eb8e0dacca0e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 530,
+        "y": 60,
+        "wires": [
+            [
+                "2311ecf97529578b"
+            ]
+        ]
     }
 ]
